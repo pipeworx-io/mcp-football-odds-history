@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-football-odds-history",
+  "version": "0.1.0",
+  "description": "football-odds-history — historical football (soccer) results and odds",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-football-odds-history": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "football-odds-history"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-football-odds-history.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-b61058b8932c69f4e7db6d5f3b7a1eaa413334e8b681982fc4f35c96c436930f",
+    "sourceCommit": "c1590c25b5e94f477a53686cb61bd09cc196c1ee"
+  }
+}

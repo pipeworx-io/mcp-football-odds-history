@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/football-odds-history",
+  "title": "Football Odds History",
+  "description": "football-odds-history — historical football (soccer) results and odds",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/football-odds-history",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-football-odds-history",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/football-odds-history/mcp"
+    }
+  ]
+}
