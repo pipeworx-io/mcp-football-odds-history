@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-football-odds-history",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "football-odds-history — historical football (soccer) results and odds from sportsbooks, sourced from football-data.co.uk.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-football-odds-history": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "football-odds-history"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-football-odds-history.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/football-odds-history",
   "pipeworx": {
-    "sourceHash": "v1-dda63ac3cd82c25d436f150a759a0a77910370c41254e68e85e42e09b9201c05",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "football-odds-history",
+    "gatewaySlug": "football-odds-history",
+    "sourceHash": "v1-5db49fec0b84cde1fd574a88588e0a312aeedf2a7162c11cb79d23562fe26fd6",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
