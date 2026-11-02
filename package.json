@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-football-odds-history",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "football-odds-history — historical football (soccer) results and odds from sportsbooks, sourced from football-data.co.uk.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "football-odds-history",
     "gatewaySlug": "football-odds-history",
-    "sourceHash": "v1-5db49fec0b84cde1fd574a88588e0a312aeedf2a7162c11cb79d23562fe26fd6",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-3dfbb344e37885f14099a188985a5a0ad97cc5aaf72f4ec2c9a45ad59d686886",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
